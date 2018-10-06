@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#ededed;
+    height: 60px;
+    font-size: 22px;
+    border-bottom: 2px solid #654ea3;
+    font-weight: 10px;
+   color: #654ea3;
+}
+
+li {
+    float: left;
+     color: #654ea3;
+     font-size: 20px;
+}
+
+li a {
+    display: block;
+    color: #654ea3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background: -webkit-linear-gradient(to bottom, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 60px;
+}
+
+li a:active {
+  background-color: -webkit-linear-gradient(to bottom, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   height:60px;
+    color:white;
+}
+
+li a:hover{
+    text-decoration: none;
+ 
+    color: white;
+    background-color: -webkit-linear-gradient(to bottom, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height:60px;
+    }
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+    height: 20%;
+    margin-bottom: 45px;
+    margin-right: 35px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    text-decoration: none;
+}
+
+.container1 {
+    padding: 2px 16px;
+    background: linear-gradient(to bottom, #eaafc8, #654ea3);
+    
+
+}
+
+.container1 a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.container1 a:active{
+    color:silver;
+}
+
+.container a{
+    color: silver;
+}
+
+.text{
+    text-transform: uppercase;
+    background:linear-gradient(to bottom, #eaafc8, #654ea3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Fjalla One', sans-serif;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+    
+
+    }
+
+.container{
+    padding: 20px;
+    border-spacing: 5px;
+    margin-top: 20px;
+   
+}
+
+.ft{
+    color: black;
+}
+   
